@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pixbooth-prototype
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PIXBOOTH_OWNER_PASSWORD
+        sync: false

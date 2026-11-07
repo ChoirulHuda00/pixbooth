@@ -1,0 +1,11 @@
+.git
+.openai
+node_modules
+dist
+*.zip
+*.log
+*.txt
+database.json
+media
+.env*
+app.js

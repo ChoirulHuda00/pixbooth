@@ -1,0 +1,9 @@
+node_modules/
+.env*
+.openai/
+*.log
+*.zip
+dist/
+media/
+database.json
+app.js

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head><script>if(location.port==='4173')location.replace('http://127.0.0.1:4174'+location.pathname+location.search+location.hash);</script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PixBooth — Moments worth keeping.</title>
+  <meta name="description" content="Preview interaktif PixBooth: kenangan digital untuk konser, wisata, dan wedding.">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/v2.css?v=wide-camera1">
+  <link rel="stylesheet" href="/revision.css?v=wide-camera1">
+</head>
+<body>
+  <div id="app"><div class="loading-screen">Menyiapkan momenmu…</div></div>
+  <dialog id="info"><div class="info-content" id="info-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script>
+  window.setTimeout(function(){var loading=document.querySelector('.loading-screen');if(loading)loading.innerHTML='Aplikasi belum berhasil dimuat. <button onclick="location.reload()">Muat ulang</button>';},12000);
+  </script>
+  <script src="/camera.js?v=wide1"></script>
+  <script src="/framing.js?v=wide1"></script>
+  <script src="/filters.js?v=portable1"></script>
+  <script src="/festival-frames.js?v=wide-camera1"></script>
+  <script src="/preston-frames.js?v=preston1"></script>
+  <script src="/running-frames.js?v=jrf1"></script>
+  <script src="/designs.js?v=wide-camera1"></script>
+  <script src="/experience.js"></script><script src="/app-v2.js?v=wide-camera1" onerror="document.getElementById('app').innerHTML='&lt;div class=&quot;page&quot;&gt;&lt;h1&gt;Aplikasi belum berhasil dimuat.&lt;/h1&gt;&lt;p&gt;Muat ulang halaman atau periksa apakah server lokal masih berjalan.&lt;/p&gt;&lt;button onclick=&quot;location.reload()&quot;&gt;Coba lagi&lt;/button&gt;&lt;/div&gt;'"></script>
+  <script src="/revision.js?v=wide-camera1"></script>
+  <script src="/preston-ui.js?v=wide-camera1"></script>
+</body>
+</html>

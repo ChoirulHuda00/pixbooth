@@ -1,0 +1,8 @@
+{
+  "name": "pixbooth-prototype",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {"start": "node server-v2.cjs", "check": "node --check server-v2.cjs && node --check app-v2.js && node --check experience.js && node --check prototype.cjs && node --check business.cjs && node --check camera.js && node --check revision.js"},
+  "engines": {"node": ">=22"},
+  "dependencies": {"@napi-rs/canvas": "0.1.100"}
+}
